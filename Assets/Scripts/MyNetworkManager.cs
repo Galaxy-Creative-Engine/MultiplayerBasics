@@ -14,12 +14,12 @@ public class MyNetworkManager : NetworkManager
 
         player.SetDisplayName($"Player {numPlayers}");
 
-        Color displayColor = new Color(
+        Color displayColour = new Color(
             Random.Range(0f, 1f),
             Random.Range(0f, 1f),
             Random.Range(0f, 1f)
             );
 
-        player.SetDisplayColor(displayColor);
+        player.SetDisplayColour(displayColour);
     }
 }
